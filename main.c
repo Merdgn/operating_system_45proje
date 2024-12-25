@@ -8,6 +8,7 @@
 #include <sys/wait.h>
 #include <fcntl.h> // open() işlevi için gerekli
 #include <signal.h> // Sinyal işleme için gerekli
+#include <increment.h>
 
 // Eğer SA_RESTART veya SA_NOCLDSTOP tanımlı değilse, tanımlayın
 #ifndef SA_RESTART
